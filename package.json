@@ -18,9 +18,10 @@
   "homepage": "https://github.com/comp426-2023-spring/a03-CheezBallzPi#readme",
   "bin": {
     "node-rps": "./bin/rps-cli.js",
-    "node-rpsls": "rpsls-cli.js"
+    "node-rpsls": "./bin/rpsls-cli.js"
   },
   "dependencies": {
     "minimist": "^1.2.8"
-  }
+  },
+  "type": "module"
 }

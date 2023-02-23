@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import { rps } from "/lib/rpsls.js"
+import { rps } from "../lib/rpsls.js"
 
 function print_usage() {
     console.log(
